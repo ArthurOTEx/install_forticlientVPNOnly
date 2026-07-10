@@ -30,7 +30,7 @@ chmod +x intall_forticlientVPNOnly.sh
 sudo ./intall_forticlientVPNOnly.sh
 ```
 
-Méthode 2 : Téléchargement direct avec curl
+### Méthode 2 : Téléchargement direct avec curl
 ```bash
 curl -O [https://raw.githubusercontent.com/ArthurOTEx/install_forticlientVPNOnly/refs/heads/main/intall_forticlientVPNOnly.sh](https://raw.githubusercontent.com/ArthurOTEx/install_forticlientVPNOnly/refs/heads/main/intall_forticlientVPNOnly.sh)
 chmod +x intall_forticlientVPNOnly.sh
