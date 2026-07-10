@@ -15,7 +15,6 @@ Le script exécute les actions suivantes en toute autonomie :
 
 * Un système d'exploitation basé sur **Debian** ou **Ubuntu** (en architecture 64-bit / amd64).
 * Une connexion Internet active.
-* L'utilitaire `wget` installé sur votre machine.
 * Les droits **root** ou l'accès à `sudo` pour l'installation du paquet.
 
 ## 🛠️ Téléchargement et Exécution
