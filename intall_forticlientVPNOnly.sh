@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#Téléchargement de Foriclient VPN-Only
+echo "
+########################################################
+## Forticlient VPN-Only en cours de Téléchargement... ##
+########################################################
+"
+cd /tmp/
+rm -f forticlient*
+wget -q --show-progress https://filestore.fortinet.com/forticlient/downloads/forticlient_vpn_7.4.3.1736_amd64.deb
+
+#Installation de Foriclient VPN-Only
+echo "
+#####################################################
+## Forticlient VPN-Only en cours d'installation... ##
+#####################################################
+"
+apt install ./forticlient_vpn_7.4.3.1736_amd64.deb -qqq
+
+echo "
+###############
+## Terminé ! ##
+###############
+"
